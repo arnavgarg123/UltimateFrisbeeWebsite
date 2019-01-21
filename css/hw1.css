@@ -6,11 +6,11 @@ body {
 }
 
 header {
+    padding: 5%;
     text-align: center;
     background-color: #ccc;
     background-image: url("../images/flywheel.jpg");
     background-size: 100%;
-    padding: 5%;
     background-size: cover;
 }
 
@@ -30,11 +30,11 @@ header nav a {
     width: 10%;
     margin: 0.5%;
     padding: 1% 7%;
-    border-radius: 5%;
-    font-size: 110%;
-    border: 1%;
-    background-color: rgba(255, 255, 255, 0.2);
     text-decoration: none;
+    border: 1%;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 110%;
 }
 
 header nav a.active {
@@ -45,16 +45,16 @@ header nav a.active {
     display: inline-block;
     float: left;
     box-sizing: border-box;
-    height: 200vh;
     width: 30%;
+    height: 200vh;
+    padding-top: 1%;
     background-color: #008b33;
-    padding-top: 1%
 }
 
 .right {
-    box-sizing: 70%;
     display: inline-block;
     float: left;
+    box-sizing: 70%;
     width: 68%;
     margin: 1%;
 }
@@ -68,19 +68,19 @@ header nav a.active {
 }
 
 table {
+    position: relative;
+    margin: 0 auto;
     border: 3px solid #ffffff;
     border-radius: 10px;
-    margin: 0 auto;
-    position: relative;
     font-size: 90%
 }
 
 tr {
-    opacity: 0.8;
-    transition-property: opacity;
-    transition-duration: 0s;
-    background-color: rgb(94, 215, 102);
     height: 40px;
+    transition-duration: 0s;
+    transition-property: opacity;
+    opacity: 0.8;
+    background-color: rgb(94, 215, 102);
 }
 
 tr:hover {
@@ -88,31 +88,31 @@ tr:hover {
 }
 
 th {
-    background-color: rgb(5, 134, 6);
+    width: 150px;
+    height: 50px;
+    color: #fff;
     border-bottom: 8px solid rgb(0, 177, 26);
     border-radius: 10px 10px 0px 0px;
-    color: #fff;
-    height: 50px;
-    width: 150px;
+    background-color: rgb(5, 134, 6);
     font-size: 120%
 }
 
 th:first-child {
+    padding-left: 3%;
     text-align: left;
-    padding-left: 3%
 }
 
 td {
+    width: 300px;
+    padding-right: 5px;
+    padding-left: 5px;
     text-align: center;
     font-size: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 300px
 }
 
 tr td:first-child {
-    text-align: left;
-    padding-left: 3%;
     width: 600px;
+    padding-left: 3%;
+    text-align: left;
     font-size: 110%
 }
